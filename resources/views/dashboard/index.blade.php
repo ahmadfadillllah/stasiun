@@ -12,7 +12,7 @@
                                     data-linecap="round" data-fgcolor="#605daf" value="80" data-skin="tron"
                                     data-angleoffset="180" data-readonly="true" data-thickness=".1"></li>
                             <li class="list-inline-item"><span class="text-muted">Storage used</span>
-                                <h6>400GB/524.84GB</h6>
+                                {{-- <h6>400GB/524.84GB</h6> --}}
                             </li>
                         </ul>
                     </div>
@@ -37,7 +37,7 @@
                                         <div class="col-2 align-self-center"><i
                                                 class="fas fa-tasks text-gradient-success"></i></div>
                                         <div class="col-10 text-right">
-                                            <h5 class="mt-0 mb-1">38</h5>
+                                            <h5 class="mt-0 mb-1">{{ $j_provinsi }}</h5>
                                             <p class="mb-0 font-12 text-muted">Jumlah Provinsi</p>
                                         </div>
                                     </div>
@@ -53,7 +53,7 @@
                                         <div class="col-2 align-self-center"><i
                                                 class="fas fa-tasks text-gradient-success"></i></div>
                                         <div class="col-10 text-right">
-                                            <h5 class="mt-0 mb-1">38</h5>
+                                            <h5 class="mt-0 mb-1">{{ $j_kota }}</h5>
                                             <p class="mb-0 font-12 text-muted">Jumlah Kab/kota</p>
                                         </div>
                                     </div>
@@ -69,8 +69,8 @@
                                         <div class="col-2 align-self-center"><i
                                                 class="fas fa-tasks text-gradient-success"></i></div>
                                         <div class="col-10 text-right">
-                                            <h5 class="mt-0 mb-1">38</h5>
-                                            <p class="mb-0 font-12 text-muted">Jumlah Kecamatan</p>
+                                            <h5 class="mt-0 mb-1">{{ $j_pos }}</h5>
+                                            <p class="mb-0 font-12 text-muted">Jumlah Pos</p>
                                         </div>
                                     </div>
                                 </div>
@@ -85,8 +85,8 @@
                                         <div class="col-2 align-self-center"><i
                                                 class="fas fa-tasks text-gradient-success"></i></div>
                                         <div class="col-10 text-right">
-                                            <h5 class="mt-0 mb-1">38</h5>
-                                            <p class="mb-0 font-12 text-muted">Jumlah Kelurahan</p>
+                                            <h5 class="mt-0 mb-1">{{ $j_stasiun }}</h5>
+                                            <p class="mb-0 font-12 text-muted">Jumlah Stasiun</p>
                                         </div>
                                     </div>
                                 </div>
