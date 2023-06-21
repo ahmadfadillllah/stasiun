@@ -56,10 +56,10 @@
                                         <td>{{ $s->provinsi->name }}</td>
                                         <td>{{ $s->tahun_alat }}</td>
                                         <td>
-                                                <button type="button" class="btn btn-outline-warning waves-effect waves-light" data-toggle="modal"
+                                                {{-- <button type="button" class="btn btn-outline-warning waves-effect waves-light" data-toggle="modal"
                                                 data-animation="bounce" data-target=".bs-example-modal-lg-edit{{$s->id}}">
                                                     <i class="mdi mdi-alert-outline mr-2"></i>Edit
-                                                </button>
+                                                </button> --}}
                                                 <button type="button" class="btn btn-outline-danger waves-effect waves-light" data-toggle="modal"
                                                 data-animation="bounce" data-target=".bs-example-modal-lg-destroy{{$s->id}}">
                                                     <i class="mdi mdi-power mr-2"></i>Hapus
