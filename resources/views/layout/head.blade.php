@@ -18,7 +18,7 @@
     <link href="{{ asset('Zoogler/mannatthemes.com/zoogler/horizontal') }}/assets/plugins/datatables/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
     <!-- Responsive datatable examples -->
     <link href="{{ asset('Zoogler/mannatthemes.com/zoogler/horizontal') }}/assets/plugins/datatables/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css">
-
+    <link type="text/css" href="{{ asset('Zoogler/mannatthemes.com/zoogler/horizontal') }}/assets/plugins/x-editable/css/bootstrap-editable.css" rel="stylesheet">
     {{-- Sweet Alert 2 --}}
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>

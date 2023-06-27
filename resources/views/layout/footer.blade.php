@@ -31,6 +31,8 @@
 <script src="{{ asset('Zoogler/mannatthemes.com/zoogler/horizontal') }}/assets/plugins/datatables/dataTables.responsive.min.js"></script>
 <script src="{{ asset('Zoogler/mannatthemes.com/zoogler/horizontal') }}/assets/plugins/datatables/responsive.bootstrap4.min.js"></script><!-- Datatable init js -->
 <script src="{{ asset('Zoogler/mannatthemes.com/zoogler/horizontal') }}/assets/pages/datatables.init.js"></script><!-- App js -->
+<script src="{{ asset('Zoogler/mannatthemes.com/zoogler/horizontal') }}/assets/plugins/x-editable/js/bootstrap-editable.min.js"></script>
+<script src="{{ asset('Zoogler/mannatthemes.com/zoogler/horizontal') }}/assets/pages/xeditable.js"></script><!-- App js -->
 <script src="{{ asset('Zoogler/mannatthemes.com/zoogler/horizontal') }}/assets/js/app.js"></script>
 
 

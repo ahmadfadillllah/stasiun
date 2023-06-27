@@ -70,14 +70,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-xl-12">
-                            <div class="form-group row">
-                                <label class="col-sm-12 col-form-label">Tahun Alat Dipasang</label>
-                                <div class="col-sm-12">
-                                    <input type="text" maxlength="25" name="tahun_alat" class="form-control">
-                                </div>
-                            </div>
-                        </div>
                         <div class="col-xl-4">
                             <div class="form-group row">
                                 <div class="col-sm-12">

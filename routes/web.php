@@ -39,6 +39,11 @@ Route::group(['middleware' => ['auth', 'checkRole:admin']], function(){
     Route::get('/data/index/destroy/{id}', [DataController::class, 'destroy'])->name('data.destroy');
     Route::post('/data/index/update/{id}', [DataController::class, 'update'])->name('data.update');
 
+    Route::get('/data/index/show/{id}', [DataController::class, 'show'])->name('datainsert.show');
+    Route::post('/data/index/show/{id}/insert', [DataController::class, 'datainsert'])->name('datainsert.insert');
+    Route::get('/data/index/show/destroy/{id}', [DataController::class, 'datadestroy'])->name('datadestroy.destroy');
+    Route::post('/data/index/show/update/{id}', [DataController::class, 'dataupdate'])->name('dataupdate.update');
+
     Route::get('/pos/index', [PosController::class, 'index'])->name('pos.index');
     Route::post('/pos/index/insert', [PosController::class, 'insert'])->name('pos.insert');
     Route::get('/pos/index/destroy/{id}', [PosController::class, 'destroy'])->name('pos.destroy');

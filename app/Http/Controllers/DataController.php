@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\DataStasiun;
 use App\Models\Pos;
 use App\Models\Stasiun;
 use Illuminate\Http\Request;
@@ -12,20 +13,23 @@ class DataController extends Controller
     {
         $pos = Pos::all();
         $stasiun = Stasiun::with('provinsi', 'kota', 'kecamatan', 'desa', 'pos')->get();
-        // dd($stasiun);
         return view('data.index', compact('pos', 'stasiun'));
+    }
+
+    public function show($id)
+    {
+        $datastasiun = DataStasiun::all()->sortBy('tahun_alat');
+        return view('data.show', compact('datastasiun'));
     }
 
     public function insert(Request $request)
     {
-// dd($request->all());
         $request->validate([
         'id_provinsi' => 'required',
         'id_kota' => 'required',
         'id_kecamatan' => 'required',
         'id_desa' => 'required',
         'id_pos' => 'required',
-        'tahun_alat' => 'required',
         ],
         [
             'id_provinsi.required' => 'Provinsi harus diisi',
@@ -33,7 +37,6 @@ class DataController extends Controller
             'id_kecamatan.required' => 'Kecamatan harus diisi',
             'id_desa.required' => 'Desa/Kelurahan harus diisi',
             'id_pos.required' => 'Nama Pos harus diisi',
-            'tahun_alat.required' => 'Tahun Alat Dipakai harus diisi',
         ]);
 
         try {
@@ -43,7 +46,6 @@ class DataController extends Controller
                 'id_kecamatan' => $request->id_kecamatan,
                 'id_desa' => $request->id_desa,
                 'id_pos' => $request->id_pos,
-                'tahun_alat' => $request->tahun_alat,
             ]);
 
             return redirect()->back()->with('success', 'Stasiun telah ditambahkan');
@@ -60,7 +62,6 @@ class DataController extends Controller
             'id_kecamatan' => 'required',
             'id_desa' => 'required',
             'id_pos' => 'required',
-            'tahun_alat' => 'required',
             ],
             [
                 'id_provinsi.required' => 'Provinsi harus diisi',
@@ -68,7 +69,6 @@ class DataController extends Controller
                 'id_kecamatan.required' => 'Kecamatan harus diisi',
                 'id_desa.required' => 'Desa/Kelurahan harus diisi',
                 'id_pos.required' => 'Nama Pos harus diisi',
-                'tahun_alat.required' => 'Tahun Alat Dipakai harus diisi',
             ]);
 
         try {
@@ -78,7 +78,6 @@ class DataController extends Controller
                 'id_kecamatan' => $request->id_kecamatan,
                 'id_desa' => $request->id_desa,
                 'id_pos' => $request->id_pos,
-                'tahun_alat' => $request->tahun_alat,
             ]);
 
             return redirect()->back()->with('success', 'Stasiun telah diupdate');
@@ -93,6 +92,72 @@ class DataController extends Controller
             Stasiun::whereId($id)->delete();
 
             return redirect()->back()->with('success', 'Stasiun telah dihapus');
+        } catch (\Throwable $th) {
+            return redirect()->back()->with('info', $th->getMessage());
+        }
+    }
+
+    public function datainsert(Request $request)
+    {
+        $request->validate([
+        'tahun_alat' => 'required',
+        ]);
+
+        try {
+            DataStasiun::create([
+                'tahun_alat' => $request->tahun_alat,
+                'id_stasiun' => $request->id_stasiun,
+                'januari' => $request->januari,
+                'februari' => $request->februari,
+                'maret' => $request->maret,
+                'april' => $request->april,
+                'mei' => $request->mei,
+                'juni' => $request->juni,
+                'juli' => $request->juli,
+                'agustus' => $request->agustus,
+                'september' => $request->september,
+                'oktober' => $request->oktober,
+                'november' => $request->november,
+                'desember' => $request->desember,
+            ]);
+
+            return redirect()->back()->with('success', 'Data Stasiun telah ditambahkan');
+        } catch (\Throwable $th) {
+            return redirect()->back()->with('info', $th->getMessage());
+        }
+    }
+
+    public function dataupdate($id, Request $request)
+    {
+
+        try {
+            DataStasiun::whereId($id)->update([
+                'januari' => $request->januari,
+                'februari' => $request->februari,
+                'maret' => $request->maret,
+                'april' => $request->april,
+                'mei' => $request->mei,
+                'juni' => $request->juni,
+                'juli' => $request->juli,
+                'agustus' => $request->agustus,
+                'september' => $request->september,
+                'oktober' => $request->oktober,
+                'november' => $request->november,
+                'desember' => $request->desember,
+            ]);
+
+            return redirect()->back()->with('success', 'Data Stasiun telah diupdate');
+        } catch (\Throwable $th) {
+            return redirect()->back()->with('info', $th->getMessage());
+        }
+    }
+
+    public function datadestroy($id)
+    {
+        try {
+            DataStasiun::whereId($id)->delete();
+
+            return redirect()->back()->with('success', 'Data Stasiun telah dihapus');
         } catch (\Throwable $th) {
             return redirect()->back()->with('info', $th->getMessage());
         }

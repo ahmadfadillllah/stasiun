@@ -17,7 +17,6 @@ class Stasiun extends Model
         'id_kecamatan',
         'id_desa',
         'id_pos',
-        'tahun_alat',
     ];
 
     public function provinsi()

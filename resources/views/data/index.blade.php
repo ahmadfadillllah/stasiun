@@ -39,7 +39,6 @@
                                     <th>Kecamatan</th>
                                     <th>Kabupaten/Kota</th>
                                     <th>Provinsi</th>
-                                    <th>Alat Dipasang/Rehap</th>
                                     <th>Aksi</th>
                                 </tr>
                             </thead>
@@ -54,12 +53,10 @@
                                         <td>{{ $s->kecamatan->name }}</td>
                                         <td>{{ $s->kota->name }}</td>
                                         <td>{{ $s->provinsi->name }}</td>
-                                        <td>{{ $s->tahun_alat }}</td>
                                         <td>
-                                                {{-- <button type="button" class="btn btn-outline-warning waves-effect waves-light" data-toggle="modal"
-                                                data-animation="bounce" data-target=".bs-example-modal-lg-edit{{$s->id}}">
-                                                    <i class="mdi mdi-alert-outline mr-2"></i>Edit
-                                                </button> --}}
+                                                <a href="{{ route('datainsert.show', $s->id) }}" class="btn btn-outline-success waves-effect waves-light">
+                                                    <i class="mdi mdi-alert-outline mr-2"></i>Lihat
+                                                </a>
                                                 <button type="button" class="btn btn-outline-danger waves-effect waves-light" data-toggle="modal"
                                                 data-animation="bounce" data-target=".bs-example-modal-lg-destroy{{$s->id}}">
                                                     <i class="mdi mdi-power mr-2"></i>Hapus

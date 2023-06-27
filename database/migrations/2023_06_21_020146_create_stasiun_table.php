@@ -18,7 +18,6 @@ return new class extends Migration
             $table->foreignId('id_kecamatan')->constrained('indonesia_districts');
             $table->foreignId('id_desa')->constrained('indonesia_villages');
             $table->foreignId('id_pos')->constrained('pos');
-            $table->string('tahun_alat');
             $table->timestamps();
         });
     }
