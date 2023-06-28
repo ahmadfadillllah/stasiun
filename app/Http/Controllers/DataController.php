@@ -18,7 +18,7 @@ class DataController extends Controller
 
     public function show($id)
     {
-        $datastasiun = DataStasiun::all()->sortBy('tahun_alat');
+        $datastasiun = DataStasiun::all()->where('id_stasiun', $id)->sortBy('tahun_alat');
         return view('data.show', compact('datastasiun'));
     }
 
