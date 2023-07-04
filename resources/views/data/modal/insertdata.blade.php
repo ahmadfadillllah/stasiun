@@ -28,13 +28,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio2" name="januari" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio2">true</label>
+                                            <label class="custom-control-label" for="customRadio2">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio3" name="januari" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio3">false</label>
+                                            <label class="custom-control-label" for="customRadio3">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -48,13 +48,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio5" name="februari" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio5">true</label>
+                                            <label class="custom-control-label" for="customRadio5">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio6" name="februari" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio6">false</label>
+                                            <label class="custom-control-label" for="customRadio6">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -68,13 +68,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio8" name="maret" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio8">true</label>
+                                            <label class="custom-control-label" for="customRadio8">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio9" name="maret" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio9">false</label>
+                                            <label class="custom-control-label" for="customRadio9">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -88,13 +88,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio11" name="april" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio11">true</label>
+                                            <label class="custom-control-label" for="customRadio11">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio12" name="april" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio12">false</label>
+                                            <label class="custom-control-label" for="customRadio12">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -108,13 +108,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio14" name="mei" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio14">true</label>
+                                            <label class="custom-control-label" for="customRadio14">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio15" name="mei" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio15">false</label>
+                                            <label class="custom-control-label" for="customRadio15">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -128,13 +128,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio17" name="juni" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio17">true</label>
+                                            <label class="custom-control-label" for="customRadio17">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio18" name="juni" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio18">false</label>
+                                            <label class="custom-control-label" for="customRadio18">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -148,13 +148,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio20" name="juli" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio20">true</label>
+                                            <label class="custom-control-label" for="customRadio20">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio21" name="juli" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio21">false</label>
+                                            <label class="custom-control-label" for="customRadio21">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -168,13 +168,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio23" name="agustus" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio23">true</label>
+                                            <label class="custom-control-label" for="customRadio23">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio24" name="agustus" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio24">false</label>
+                                            <label class="custom-control-label" for="customRadio24">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -188,13 +188,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio26" name="september" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio26">true</label>
+                                            <label class="custom-control-label" for="customRadio26">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio27" name="september" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio27">false</label>
+                                            <label class="custom-control-label" for="customRadio27">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -208,13 +208,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio29" name="oktober" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio29">true</label>
+                                            <label class="custom-control-label" for="customRadio29">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio30" name="oktober" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio30">false</label>
+                                            <label class="custom-control-label" for="customRadio30">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -228,13 +228,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio32" name="november" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio32">true</label>
+                                            <label class="custom-control-label" for="customRadio32">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio33" name="november" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio33">false</label>
+                                            <label class="custom-control-label" for="customRadio33">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -248,13 +248,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio35" name="desember" class="custom-control-input" value="true"/>
-                                            <label class="custom-control-label" for="customRadio35">true</label>
+                                            <label class="custom-control-label" for="customRadio35">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio36" name="desember" class="custom-control-input" value="false"/>
-                                            <label class="custom-control-label" for="customRadio36">false</label>
+                                            <label class="custom-control-label" for="customRadio36">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>

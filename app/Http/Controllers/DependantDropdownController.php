@@ -8,7 +8,7 @@ class DependantDropdownController extends Controller
 {
     public function provinces()
     {
-        return \Indonesia::allProvinces();
+        return \Indonesia::allProvinces()->where('code', 73);
     }
 
     public function cities(Request $request)

@@ -3,7 +3,7 @@
         <div class="container-fluid">
             <!-- Logo container-->
             <div class="logo"><a href="{{ route('dashboard.index') }}" class="logo"><i
-                        class="mdi mdi-bowling text-success mr-1"></i> <span class="hide-phone">Stasiun</span></a>
+                        class="mdi mdi-bowling text-success mr-1"></i> <span class="hide-phone">{{ config('app.name') }}</span></a>
             </div><!-- End Logo container-->
             <div class="menu-extras topbar-custom">
                 <ul class="list-unstyled float-right mb-0">

@@ -26,13 +26,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio37" name="januari" class="custom-control-input" value="true" {{ $s->januari == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio37">true</label>
+                                            <label class="custom-control-label" for="customRadio37">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio38" name="januari" class="custom-control-input" value="false" {{ $s->januari == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio38">false</label>
+                                            <label class="custom-control-label" for="customRadio38">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -46,13 +46,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio39" name="februari" class="custom-control-input" value="true" {{ $s->februari == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio39">true</label>
+                                            <label class="custom-control-label" for="customRadio39">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio40" name="februari" class="custom-control-input" value="false"{{ $s->februari == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio40">false</label>
+                                            <label class="custom-control-label" for="customRadio40">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -66,13 +66,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio41" name="maret" class="custom-control-input" value="true" {{ $s->maret == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio41">true</label>
+                                            <label class="custom-control-label" for="customRadio41">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio42" name="maret" class="custom-control-input" value="false" {{ $s->maret == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio42">false</label>
+                                            <label class="custom-control-label" for="customRadio42">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -86,13 +86,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio43" name="april" class="custom-control-input" value="true" {{ $s->april == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio43">true</label>
+                                            <label class="custom-control-label" for="customRadio43">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio44" name="april" class="custom-control-input" value="false" {{ $s->april == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio44">false</label>
+                                            <label class="custom-control-label" for="customRadio44">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -106,13 +106,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio45" name="mei" class="custom-control-input" value="true" {{ $s->mei == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio45">true</label>
+                                            <label class="custom-control-label" for="customRadio45">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio46" name="mei" class="custom-control-input" value="false" {{ $s->mei == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio46">false</label>
+                                            <label class="custom-control-label" for="customRadio46">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -126,13 +126,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio47" name="juni" class="custom-control-input" value="true" {{ $s->juni == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio47">true</label>
+                                            <label class="custom-control-label" for="customRadio47">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio48" name="juni" class="custom-control-input" value="false" {{ $s->juni == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio48">false</label>
+                                            <label class="custom-control-label" for="customRadio48">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -146,13 +146,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio49" name="juli" class="custom-control-input" value="true" {{ $s->juli == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio49">true</label>
+                                            <label class="custom-control-label" for="customRadio49">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio50" name="juli" class="custom-control-input" value="false" {{ $s->juli == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio50">false</label>
+                                            <label class="custom-control-label" for="customRadio50">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -166,13 +166,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio51" name="agustus" class="custom-control-input" value="true" {{ $s->agustus == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio51">true</label>
+                                            <label class="custom-control-label" for="customRadio51">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio52" name="agustus" class="custom-control-input" value="false" {{ $s->agustus == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio52">false</label>
+                                            <label class="custom-control-label" for="customRadio52">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -186,13 +186,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio53" name="september" class="custom-control-input" value="true" {{ $s->september == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio53">true</label>
+                                            <label class="custom-control-label" for="customRadio53">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio54" name="september" class="custom-control-input" value="false" {{ $s->september == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio54">false</label>
+                                            <label class="custom-control-label" for="customRadio54">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -206,13 +206,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio55" name="oktober" class="custom-control-input" value="true" {{ $s->oktober == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio55">true</label>
+                                            <label class="custom-control-label" for="customRadio55">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio56" name="oktober" class="custom-control-input" value="false" {{ $s->oktober == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio56">false</label>
+                                            <label class="custom-control-label" for="customRadio56">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -226,13 +226,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio57" name="november" class="custom-control-input" value="true" {{ $s->november == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio57">true</label>
+                                            <label class="custom-control-label" for="customRadio57">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio58" name="november" class="custom-control-input" value="false" {{ $s->november == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio58">false</label>
+                                            <label class="custom-control-label" for="customRadio58">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
@@ -246,13 +246,13 @@
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio59" name="desember" class="custom-control-input" value="true" {{ $s->desember == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio59">true</label>
+                                            <label class="custom-control-label" for="customRadio59">ada</label>
                                         </div>
                                     </div>
                                     <div class="form-check-inline my-1">
                                         <div class="custom-control custom-radio">
                                             <input type="radio" id="customRadio60" name="desember" class="custom-control-input" value="false" {{ $s->desember == true ? 'checked' : '' }}/>
-                                            <label class="custom-control-label" for="customRadio60">false</label>
+                                            <label class="custom-control-label" for="customRadio60">tidak ada</label>
                                         </div>
                                     </div>
                                 </div>
