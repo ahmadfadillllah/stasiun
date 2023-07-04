@@ -13,7 +13,7 @@ class DashboardController extends Controller
     public function index()
     {
         $j_provinsi = Provinces::count();
-        $j_kota = Cities::count();
+        $j_kota = Cities::where('province_code', 73)->count();
         $j_pos = Pos::count();
         $j_stasiun = Stasiun::count();
         return view('dashboard.index', compact('j_provinsi', 'j_kota', 'j_pos', 'j_stasiun'));
