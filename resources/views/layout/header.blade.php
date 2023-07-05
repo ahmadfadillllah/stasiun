@@ -95,7 +95,7 @@
                 <ul class="navigation-menu">
                     <li class="has-submenu"><a href="{{ route('dashboard.index') }}"><i class="dripicons-device-desktop"></i>Dashboard</a></li>
                     <li class="has-submenu"><a href="{{ route('pos.index') }}"><i class="dripicons-blog"></i>Daftar Pos</a></li>
-                    <li class="has-submenu"><a href="{{ route('data.index') }}"><i class="dripicons-blog"></i>Data Stasiun</a></li>
+                    <li class="has-submenu"><a href="{{ route('data.index') }}"><i class="dripicons-blog"></i>Ketersediaan Data</a></li>
                 </ul><!-- End navigation menu -->
             </div><!-- end #navigation -->
         </div><!-- end container -->
